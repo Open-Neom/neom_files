@@ -1,0 +1,16 @@
+name: neom_files
+description: >-
+  Cross-platform file operation tools for Open Neom AI agents.
+  Read, write, search, and list files with safety features,
+  edit-mode verification, and binary detection.
+version: 1.0.0
+homepage: https://github.com/Open-Neom/neom_files
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies: {}
+
+dev_dependencies:
+  test: ^1.25.0
