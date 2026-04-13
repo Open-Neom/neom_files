@@ -35,6 +35,9 @@ library neom_files;
 // ── Tool Interface ──
 export 'domain/use_cases/neom_tool.dart';
 
+// ── Pure-Dart filters (safe for web) ──
+export 'utils/file_filters.dart';
+
 // ── File Tools ──
 export 'utils/tools/file_read_tool.dart';
 export 'utils/tools/file_write_tool.dart';
